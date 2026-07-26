@@ -6,6 +6,7 @@ import 'package:classico_as/News_app/StartNews.dart';
 import 'package:classico_as/Ui/AddNote.dart';
 import 'package:classico_as/Ui/Wallpaper/FullWallpaper.dart';
 import 'package:classico_as/Ui/Wallpaper/WallpaperGridView.dart';
+import 'package:classico_as/Ui/shared_prefes/Splash.dart';
 import 'package:classico_as/calc.dart';
 import 'package:flutter/material.dart';
 import 'package:classico_as/Ui/Common/homePage.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Startnews(),
+      home: Splash(),
     );
   }
 }
