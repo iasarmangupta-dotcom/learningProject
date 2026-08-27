@@ -1,4 +1,4 @@
-import 'package:classico_as/Expence_home_page.dart';
+import 'package:classico_as/Ui/Expenceapp/Expence_home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +24,7 @@ class ExpenceApp extends StatelessWidget{
             child: ElevatedButton(style: ElevatedButton.styleFrom(
               backgroundColor: Colors.pink.shade200,)
               ,onPressed: (){
-              Navigator.pushReplacementNamed(context,"/Expence_home_page");
+              Navigator.pushReplacement(context, MaterialPageRoute(builder:(context)=>ExpenceHomePage()));
               }, child:Icon(Icons.arrow_right_alt,
                 color: Colors.white,size: 50,),),
           )
